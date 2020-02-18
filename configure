@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#CREATE DATABASE
+mysql < db_create
+
+#FILL DATABASE WITH PRODUCTS AND RECIPIES
+mysql < db_fill
+

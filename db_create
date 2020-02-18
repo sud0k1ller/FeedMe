@@ -1,0 +1,31 @@
+CREATE DATABASE Jedzenie;
+USE Jedzenie;
+
+CREATE TABLE Przepis (
+	nazwa_przepisu VARCHAR(90) NOT NULL,
+	rodzaj VARCHAR(30) NOT NULL,
+	bez_miesa BOOLEAN,
+	PRIMARY KEY (nazwa_przepisu)
+);
+
+CREATE TABLE Produkt (
+	nazwa_produktu VARCHAR(90) NOT NULL,
+	kcal DOUBLE NOT NULL,
+	weglowodany DOUBLE NOT NULL,
+	bialko DOUBLE NOT NULL,
+	tluszcz DOUBLE NOT NULL,
+	cena_produktu_za_100g DOUBLE NOT NULL,
+	PRIMARY KEY (nazwa_produktu)
+);
+
+CREATE TABLE Produkt_Przepis (
+	nazwa_przepisu_fk VARCHAR(90) NOT NULL,
+	nazwa_produktu_fk VARCHAR(90) NOT NULL,
+	liczba_gramow_produktu DOUBLE,
+	glowny_skladnik BOOLEAN,
+	FOREIGN KEY (nazwa_przepisu_fk) REFERENCES Przepis(nazwa_przepisu) ON DELETE CASCADE,
+	FOREIGN KEY (nazwa_produktu_fk) REFERENCES Produkt(nazwa_produktu) ON DELETE CASCADE,
+	CONSTRAINT UNIQUE (nazwa_przepisu_fk, nazwa_produktu_fk)
+);
+
+GRANT ALL PRIVILEGES ON Jedzenie.* TO 'feedmeuser'@'localhost' IDENTIFIED BY 'pass'; 
