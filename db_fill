@@ -58,11 +58,100 @@ INSERT INTO Produkt (nazwa_produktu, kcal, weglowodany, bialko, tluszcz, cena_pr
 
 ### ----- PRZEPISY ----- ###
 
-# - OBIADY
+# - MAKARONY
 INSERT INTO Przepis (nazwa_przepisu, rodzaj)
 	VALUES ("Schab w sosie koperkowym", "obiad");
 INSERT INTO Przepis (nazwa_przepisu, rodzaj)
 	VALUES ("Losos z sosem holenderskim", "obiad");
+# - NALESNIKI/WRAPY
+# - INNE
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Pizza", "Inne", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Burgery", "szybkie", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("", "szybkie", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Kapusniak", "szybkie", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Kapusniak", "szybkie", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Kapusniak", "szybkie", TRUE);
+
+
+
+
+
+
+
+
+# - ZUPY
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Zupa krem z kukurydzy", "zupy", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Zupa krem z bialych warzyw", "zupy", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Zupa marchewkowa", "zupy", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Rosol z makaronem", "zupy", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Ramen", "zupy", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Barszczyk", "zupy", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Zupa marchewkowa z serem camembert", "zupy", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Zupa ogorkowa", "zupy", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Zupa bobowa", "zupy", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Zupa orientalna z makaronem i krewetkami", "zupy", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Zupa fasolowa", "zupy", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Kapusniak", "zupy", TRUE);
+
+# - JEDNOGARNKOWE
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Chlopski garnek z ziemniakami", "jednogarnkowe", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Peczak z warzywami po meksykansku", "jednogarnkowe", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Chakalaka", "jednogarnkowe", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Fasolka po bretonsku", "jednogarnkowe", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Fasolka zapiekana z jarmuzem", "jednogarnkowe", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Curry warzywne", "jednogarnkowe", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Ryz po holendersku", "jednogarnkowe", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Zapiekanka ziemniaczana", "jednogarnkowe", TRUE);
+
+
+
+# - SZYBKIE
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Ryz z mieszanka warzywna", "szybkie", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Makaron z serem", "szybkie", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Kotlety z sera camembert z frytkami", "szybkie", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Spaghetti", "szybkie", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Makaron z pesto", "szybkie", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Krokiety z barszczem", "szybkie", TRUE);
+INSERT INTO Przepis (nazwa_przepisu, rodzaj, bez_miesa)
+	VALUES ("Chinskie pierozki", "szybkie", TRUE);
+
+
+
+
+
+
 
 
 
